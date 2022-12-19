@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+.container{
+  width: 1024px;
+  justify-content: center;
+  background-color: white;
+}
+
+.homeContainer{
+  
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeTitle{
+  font-family: 'Rubik Vinyl', cursive;
+  width: 90%;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  animation: colorchange 5s infinite alternate; 
+
+}
+@keyframes colorchange {
+      0% {
+        color: indigo;
+      }
+      
+      20% {
+        color: #3DA5D9;
+      }
+      
+      40% {
+        color: #12664F;
+      }
+      
+      60% {
+        color: #EEB902;
+      }
+      
+      80% {
+        color: #ED7D3A;
+      }
+      
+      100% {
+        color: #601700;
+      }
+}
+@media(max-width:768px){
+  .container{width:100%}
+
+}
+
+@media(max-width:480px){
+  .container{width:100%}
+}

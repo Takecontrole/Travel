@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Gemstones&display=swap');
+
+.navbar{
+  height: 50px;
+  background-color: #080357;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-family: 'Rubik Gemstones', cursive;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navButton{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #0071c2;
+  border-radius: 5px;
+  
+}
